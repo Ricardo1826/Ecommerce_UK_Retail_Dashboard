@@ -21,6 +21,11 @@ Ecommerce_UK_Retail/
 └── requirements.txt
 ```
 
+## Aperçu du dashboard
+
+![Aperçu du dashboard](outputs/figures/dashboard_apercu.png)
+
+
 ## Ce que couvre l'analyse
 
 - **Nettoyage** : suppression des commandes annulées, valeurs manquantes, doublons, incohérences de prix/quantité
@@ -28,7 +33,7 @@ Ecommerce_UK_Retail/
 - **Analyse temporelle** : évolution quotidienne/mensuelle du CA, heatmap jour/heure, décomposition saisonnière (STL)
 - **Détection d'anomalies** : trois méthodes comparées (écart-type, IQR, résidus de décomposition STL)
 - **KPIs** : chiffre d'affaires total, nombre de transactions, panier moyen, clients uniques
-- **Dashboard** : exploration interactive avec filtres dynamiques (Streamlit + Altair)
+- **Dashboard** : exploration interactive avec filtres dynamiques (Streamlit + Plotly)
 
 ## Installation
 
